@@ -75,3 +75,52 @@ Every benefitial environmental factor gives you one bonus.
 ### The Formula
 
 1D20 + Attribute + Profession + Help + Equipment + Environment >= threshold
+
+
+# Module 2: Weapons and Armour
+
+## Weapons
+Weapons can be categorized into five tiers:
+
+ - **Tier 0** bare hands
+ - **Tier 1** improvized weapons: sticks, stones, bottles
+ - **Tier 2** small weapons: knives, slingshots, throwing stars. They can be build quickly out of simple materials.
+ - **Tier 3** one handed weapons: rapiers, pistols, axes
+ - **Tier 4** two handed weapons: longswords, muskets, halbeards, longbows
+
+Each tier gives a weapon that many points to distribute to the four weapon stats:
+ - **Range** For meele weapons, allocating a point in range allows the weapon to attack even if somebody is in between the wielder and the target.
+For ranged weapons, a point in range addes half of the base range to it.
+ - **Attack** Added attack bonus. Allocate points here if the weapon is heavy or blunt or opposite of that easy to aim with
+ - **Damage** Added damage bonus. Allocate points here if the weapon is sharp.
+ - **Defense** Added armour class bonus. Allocate points here if the weapon is longer then half a meter,
+ or made to block like a shield or a parrying dagger.
+
+If a weapon is a special artifact, masterly crafted or magical, it gains one point which can be added to its stats.
+If the weapon is rusty or cursed, you can subtract a point from its stats.
+
+### Attacking with a Weapon
+
+Attacking is a skill check.
+A weapon which requires muscle force to deliver the attack uses the fitness attribute.
+Breaking with role playing tradition, this definition also includes bows.
+If the weapons attack instead triggers without the use of force, and the user can instead focus on aiming,
+agility or intelligence can be used as relevant attributes.
+
+The **attack** value of a given weapon is added as the equipment modifier to the above skill check formula.
+If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weapon.
+
+### Example Weapons
+
+| Name   | Tier | Attr | rng | atk | dmg | def |
+|--------|------|------|-----|-----|-----|-----|
+| Buckler | T2, meele | fitness | 0 | 0 | 0 | 2 |
+| Rapier | T3, meele | fitness | 1 | 2 | 0 | 0 |
+| Parrying Dagger | T2, meele | fitness | 0 | 0 | 1 | 1 |
+| Halbeard | T4, meele | fitness | 1 | 0/2* | 2/0* | 1 |
+| Musket | T4, range | agility | 1 | 2 | 1 | 0 |
+| Longbow | T4, range | fitness | 1 | 1 | 2 | 0 |
+
+* The halbeard can be used with the axe head for a damage bonus and the hammer head for an attack bonus.
+
+
