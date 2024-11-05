@@ -123,4 +123,14 @@ If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weap
 
 * The halbeard can be used with the axe head for a damage bonus and the hammer head for an attack bonus.
 
+## Armour
 
+An unarmoured character has a base **armour class** of 10. This is the threshold for an attack skill check to hit.
+If a character has a shield or a weapon with a **defense** attribute, this value is added to the characters **armour class**.
+
+Armour can be classified into two categories, each worn item of an armour increasing the characters **armour class** by the given **defense** value. 
+
+| Category | Materials | Def | Examples |
+|----------|-----------|-----|----------|
+| heavy/hard | metal | 2 | cuirass, helmet |
+| light/soft | fabric, leather | 1 | gloves, jacket, boots |
