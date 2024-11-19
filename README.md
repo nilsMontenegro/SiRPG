@@ -130,12 +130,14 @@ Some abilities can level up to grant more bonuses, so instead of investing level
  - for an attack skill check use the attribute intelligence or dexterity and a plausible profession
  - form the magic attack at will by allocating the points as explained in the weapons chapter
  - for throwing a fire attack at a distance, allocate a point into range
+ - once per scene outside of a fight or as a regular weapon in a fight
 
 **Teleport**
  - move instantly to a place you already have been to or can see
  - lvl 1 maximally 10 meters away
  - lvl 2 maximally 100 meters away
  - lvl 3 maximally 1km away
+ - once per scene
 
 # Module 3: Weapons and Armour
 
