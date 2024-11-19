@@ -122,6 +122,7 @@ If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weap
 | Longbow | T4, range | fitness | 1 | 1 | 2 | 0 |
 
 * The halbeard can be used with the axe head for a damage bonus and the hammer head for an attack bonus.
+* Note that shields count also as weapons. All their points go into the **defense** attribute, but attacking with them is still possible.
 
 ## Armour
 
@@ -132,5 +133,6 @@ Armour can be classified into two categories, each worn item of an armour increa
 
 | Category | Materials | Def | Examples |
 |----------|-----------|-----|----------|
-| heavy/hard | metal | 2 | cuirass, helmet |
 | light/soft | fabric, leather | 1 | gloves, jacket, boots |
+| heavy/hard | metal | 2 | cuirass, helmet |
+| energy based | technology or magic | 3 | shield generator, spell |
