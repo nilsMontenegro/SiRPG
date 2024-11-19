@@ -266,3 +266,12 @@ To derive the attributes of the ship, we can calculate:
  - **Acceleration** is the fraction of the applied force divided by the mass of the moving object. Each used mast element generates 1 force.
  - **Speed** interestingly longer ships can move faster as the water moves more efficiently around longer hulls. The maximum speed is the acceleration times the length, which is the amount of foundation elements.
 
+## Sailing Ship Customization
+
+Sailing ships can attach a figure to the front, which can grant a unique bonus to the crew or the to the ship itself.
+Here are some suggestions:
+
+ - **Scary Skeleton** +1 bonus to all fighting skill checks of the crew
+ - **Charming Mermaid** +1 bonus to all social interactions of the crew
+ - **Ripof of an Expensive Car Brands Logo** adds speed, counts as one sail element without the weight
+ - **Stylish Dragon Sculpture** sea dragons won't attack this ship
