@@ -76,8 +76,68 @@ Every benefitial environmental factor gives you one bonus.
 
 1D20 + Attribute + Profession + Help + Equipment + Environment >= threshold
 
+# Module 2: Special Abilities
 
-# Module 2: Weapons and Armour
+Special abilities represent a way to play with magic or great skills.
+A character can receive special abilities to increase it's uniqueness and improve an interesting play style.
+A player can invent new special abilities, and choose one during character creation.
+They too are noted in the players character sheet.
+Some abilities can level up to grant more bonuses, so instead of investing level points into attributes and professions, they can be invested into those abilities.
+
+## Example Abilities
+
+### Civilian Abilities
+
+**Speechcraft Expert**
+ - applies to skill checks in the context of talking
+ - e.g. persuading, charming or tricking someone, negotiating for better prices, ...
+ - once per scene you can reroll a failed skill check
+
+**Tech Expert**
+ - applies to skill checks in the context of using machinery
+ - e.g. repairing a broken engine, crafting a new weapon, ...
+ - once per scene you can reroll a failed skill check
+
+**Sportive**
+ - applies to skill checks in the context of performing sportive acts
+ - e.g. climbing a wall, running, jumping
+ - once per scene you can reroll a failed skill check
+
+### Fighting Abilities
+
+**Dual Wielding**
+ - make an attack with your second weapon in your other hand right after your first attack
+ - lvl 1 attack again after you land a hit with your first weapon
+ - lvl 2 attack again after each attack with your first weapon
+
+**Long Weapon Master**
+ - make a second attack with your two handed weapon right after your first attack
+ - lvl 1 attack again after you land a hit
+ - lvl 2 attack again after each attack
+
+**Dodge Master**
+ - instead of using your armour class to determine if an attack hits you, you can choose to roll a skill check to dodge
+ - your "armour class" for that incoming hit is a skill check using the agility attribute and any plausible profession, e.g. boxer or ninja
+ - for ease of use, instead of rolling each time the armour class can be fixed by using 10 as the fixed income of the dice roll
+
+### Magic Abilities
+
+**Fire Magic**
+ - Or ice or any other destructive power of nature
+ - lvl 1 use a small fire as a tool or tier 1 weapon
+ - lvl 2 use fire as a weapon up to tier 3
+ - lvl 3 use fire as a weapon up to tier 4
+ - for an attack skill check use the attribute intelligence or dexterity and a plausible profession
+ - form the magic attack at will by allocating the points as explained in the weapons chapter
+ - for throwing a fire attack at a distance, allocate a point into range
+
+**Teleport**
+ - move instantly to a place you already have been to or can see
+ - lvl 1 maximally 10 meters away
+ - lvl 2 maximally 100 meters away
+ - lvl 3 maximally 1km away
+
+# Module 3: Weapons and Armour
 
 ## Weapons
 Weapons can be categorized into five tiers:
