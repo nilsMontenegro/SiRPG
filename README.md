@@ -198,3 +198,71 @@ Armour can be classified into two categories, each worn item of an armour increa
 | light/soft | fabric, leather | 1 | gloves, jacket, boots |
 | heavy/hard | metal | 2 | cuirass, helmet |
 | energy based | technology or magic | 3 | shield generator, spell |
+
+
+# Module 4: Vehicles
+
+Vehicles can transport characters and goods, they can be mobile bases and they can fight each other.
+The concept of vehicles can be applied to all game settings, and they can range from huge starships to sailing ships to a small van or a donkey chart.
+
+Different vehicles can be compared in these stats:
+
+ - **Speed** in long range contests, higher speed wins
+ - **Acceleration** in short range contests, higher acceleration wins
+ - **Mass** indirectly proportional to maneuverability, in contests with a lot of obstacles lower mass wins
+
+## Customizable Rooms
+
+Big enough vehicles contain rooms which can be fitted to serve many purposes.
+Use some of those examples or invent your own.
+
+ - **Empty Room** good for storage
+ - **Hidden Room** good for secret storage
+ - **Cage** still empty, but with bars. Good for animals or prisoners
+ - **Hospital** heal your friends, access medicine and craft potions here
+ - **Workshop** fitted with tools, repair the vehicle and craft items
+ - **Reactor/ Magic Artifact** power shields, life support, etc
+ - **Water Filter Room** turn salt water drinkable, good for sailing the oceans
+ - **Luxury Cabin** very cozy.
+ - **Additional Move Speed** In the form of additional rows or engines
+ - **Landing Bay** for smaller vessels
+ - **Cannon Bay** contains a big gun and it's amunition
+
+Additionaly to rooms, some vehicles like ships and pickup trucks have a deck area which can be fitted with other equipment:
+
+ - **Cannon** Very heavy weapon, you might want to model it as a tier 5 or 6 weapon
+ - **Boarding Bridge** When closing in to another vehicle, this bridge can be lowered and hooked into the opponent vehicle
+ - **Sails / Solar Power Array** more power or speed
+
+## Designing Sailing Ships
+
+Specifically for pirate themed games, this can be a useful system to design sailing ships and derive their properties from that design.
+A ship consists of three diferent elements, **foundations**, **rooms**, and **masts**.
+They will be drawn on sqared paper and represent a 2D ship.
+
+Start by laying out **foundation** elements in a line as the top deck of the ship. Foundations define the length of your ship.
+
+Under the deck you can attach **rooms**. To place a room, it needs three foundations or other rooms on the layer over it.
+So the design will grow from the foundation layer downwards in a triangular shape. Rooms can also be placed on top of a foundation element.
+Rooms can then be used as in the above examples.
+
+Lastly add **masts** on top of the foundation. Starting with the first foundation element every second foundation can have a mast.
+Every mast can be as many elements high, as there are room and foundation elements under it.
+The first mast can be displayed as front facing instead of going straight up.
+Masts and their attached sails generate the force to move the ship.
+
+The result might look like this:
+
+```
+  |
+# |    /
+- - - -
+  # #
+```
+
+To derive the attributes of the ship, we can calculate:
+
+ - **Mass** is the sum of all used elements, each mast and foundation element having a mass of 1 and each room having a mass of 4
+ - **Acceleration** is the fraction of the applied force divided by the mass of the moving object. Each used mast element generates 1 force.
+ - **Speed** interestingly longer ships can move faster as the water moves more efficiently around longer hulls. The maximum speed is the acceleration times the length, which is the amount of foundation elements.
+
