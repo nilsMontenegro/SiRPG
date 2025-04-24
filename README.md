@@ -118,7 +118,7 @@ Some abilities can level up to grant more bonuses, so instead of investing level
 **Dodge Master**
  - instead of using your armour class to determine if an attack hits you, you can choose to roll a skill check to dodge
  - your "armour class" for that incoming hit is a skill check using the agility attribute and any plausible profession, e.g. boxer or ninja
- - for ease of use, instead of rolling each time the armour class can be fixed by using 10 as the fixed income of the dice roll
+ - for ease of use, instead of rolling each time the armour class can be fixed by using 10 (base armour class) + agility + profession
 
 ### Magic Abilities
 
@@ -151,12 +151,10 @@ Weapons can be categorized into five tiers:
  - **Tier 4** two handed weapons: longswords, muskets, halbeards, longbows
 
 Each tier gives a weapon that many points to distribute to the four weapon stats:
- - **Range** For meele weapons, allocating a point in range allows the weapon to attack even if somebody is in between the wielder and the target.
-For ranged weapons, a point in range addes half of the base range to it.
- - **Attack** Added attack bonus. Allocate points here if the weapon is heavy or blunt or opposite of that easy to aim with
- - **Damage** Added damage bonus. Allocate points here if the weapon is sharp.
- - **Defense** Added armour class bonus. Allocate points here if the weapon is longer then half a meter,
- or made to block like a shield or a parrying dagger.
+ - **Accuracy** Added attack bonus. Add points here if the weapon is easy to aim or can damage through armour.
+ - **Damage** Added damage bonus. Add points here if the weapon is sharp.
+ - **Defense** Added armour class bonus. Add points here if the weapon is good to block like a shield or a parrying dagger.
+ - **Range** Ranged weapons must add one point here. Meele weapons still can add one point too, which allows the weapon to attack even if somebody is in between the attacker and the target.
 
 If a weapon is a special artifact, masterly crafted or magical, it gains one point which can be added to its stats.
 If the weapon is rusty or cursed, you can subtract a point from its stats.
@@ -169,12 +167,12 @@ Breaking with role playing tradition, this definition also includes bows.
 If the weapons attack instead triggers without the use of force, and the user can instead focus on aiming,
 agility or intelligence can be used as relevant attributes.
 
-The **attack** value of a given weapon is added as the equipment modifier to the above skill check formula.
+The **accuracy** value of a given weapon is added as the equipment modifier to the above skill check formula.
 If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weapon.
 
 ### Example Weapons
 
-| Name   | Tier | Attr | rng | atk | dmg | def |
+| Name   | Tier | Attr | rng | acc | dmg | def |
 |--------|------|------|-----|-----|-----|-----|
 | Buckler | T2, meele | fitness | 0 | 0 | 0 | 2 |
 | Rapier | T3, meele | fitness | 1 | 2 | 0 | 0 |
@@ -183,15 +181,16 @@ If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weap
 | Musket | T4, range | agility | 1 | 2 | 1 | 0 |
 | Longbow | T4, range | fitness | 1 | 1 | 2 | 0 |
 
-* The halbeard can be used with the axe head for a damage bonus and the hammer head for an attack bonus.
+* The halbeard can be used with the axe head for a **damage** bonus and the hammer head for an **accuracy** bonus.
 * Note that shields count also as weapons. All their points go into the **defense** attribute, but attacking with them is still possible.
 
 ## Armour
 
 An unarmoured character has a base **armour class** of 10. This is the threshold for an attack skill check to hit.
-If a character has a shield or a weapon with a **defense** attribute, this value is added to the characters **armour class**.
+If a character carries a shield or a weapon with a **defense** attribute in his hands, this value is added to the characters **armour class**.
+If a character wears pieces of armour, their **defense** values are also added to the characters **armour class**.
 
-Armour can be classified into two categories, each worn item of an armour increasing the characters **armour class** by the given **defense** value. 
+Armour can be classified into categories with different **defense** values. 
 
 | Category | Materials | Def | Examples |
 |----------|-----------|-----|----------|
@@ -203,7 +202,7 @@ Armour can be classified into two categories, each worn item of an armour increa
 # Module 4: Vehicles
 
 Vehicles can transport characters and goods, they can be mobile bases and they can fight each other.
-The concept of vehicles can be applied to all game settings, and they can range from huge starships to sailing ships to a small van or a donkey chart.
+The concept of vehicles can be applied to all game settings, and they can range from huge starships to sailing vessels to a small van or a donkey chart.
 
 Different vehicles can be compared in these stats:
 
