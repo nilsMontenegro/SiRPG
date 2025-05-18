@@ -49,16 +49,6 @@ Every skill check has to make a reasonable assumption whether a profession appli
 The result has then to be greater or equal a given threshold for the action to succeed.
 The threshold can be either fixed for a static obstacle or an opposing skill check for a competition against another character.
 
-### Helping other Players
-
-In some situations characters can help each other with their skill checks.
-Those situations are usually calm enough to think things through and have some possibility for the characters to interact. 
-In those situations one other player can describe how he would help the action of another.
-The helping character then chooses which of his attribute or profession scores can be applied.
-This score is then added to the skill checks result.
-
-Note that only one help action can be added per skill check and that a battle typically is not a calm enough situation.
-
 ### Using Equipment and the Environment
 
 Using equipment can help you accieve a task.
@@ -74,7 +64,7 @@ Every benefitial environmental factor gives you one bonus.
 
 ### The Formula
 
-1D20 + Attribute + Profession + Help + Equipment + Environment >= threshold
+1D20 + Attribute + Profession + Equipment + Environment >= threshold
 
 # Module 2: Special Abilities
 
@@ -103,6 +93,10 @@ Some abilities can level up to grant more bonuses, so instead of investing level
  - e.g. climbing a wall, running, jumping
  - once per scene you can reroll a failed skill check
 
+**Helpful**
+ - When another player rolls a skill check, you can add one of your fitting attributes or professions to his result.
+ - Applicable only in situations which are calm enough, so for example not in fights.
+
 ### Fighting Abilities
 
 **Dual Wielding**
@@ -118,26 +112,22 @@ Some abilities can level up to grant more bonuses, so instead of investing level
 **Dodge Master**
  - instead of using your armour class to determine if an attack hits you, you can choose to roll a skill check to dodge
  - your "armour class" for that incoming hit is a skill check using the agility attribute and any plausible profession, e.g. boxer or ninja
- - for ease of use, instead of rolling each time the armour class can be fixed by using 10 (base armour class) + agility + profession
+ - for ease of use, you can define your armour class by using 10 (base armour class) + agility + profession
 
 ### Magic Abilities
 
-**Fire Magic**
- - Or ice or any other destructive power of nature
- - lvl 1 use a small fire as a tool or tier 1 weapon
- - lvl 2 use fire as a weapon up to tier 3
- - lvl 3 use fire as a weapon up to tier 4
- - for an attack skill check use the attribute intelligence or dexterity and a plausible profession
- - form the magic attack at will by allocating the points as explained in the weapons chapter
- - for throwing a fire attack at a distance, allocate a point into range
- - once per scene outside of a fight or as a regular weapon in a fight
+Casting magic is one of the most fascinating special abilities.
+Leveling it up can give you additional spell points and access to higher level spells.
+You can find extensive lists of spells in other sources.
 
-**Teleport**
- - move instantly to a place you already have been to or can see
- - lvl 1 maximally 10 meters away
- - lvl 2 maximally 100 meters away
- - lvl 3 maximally 1km away
- - once per scene
+An alternative approach is to choose an individual spell, and leveling up makes this spell stronger.
+Your fireball would make more damage, you could teleport over a longer distance, or anything you can think of.
+A destructive spell could be treated like a weapon of the same level, see below.
+
+### Racial Abilities
+
+Some fantasy races have different properties than humans:
+They might for example be able to see in the dark or breathe under water.
 
 # Module 3: Weapons and Armour
 
@@ -174,12 +164,11 @@ If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weap
 
 | Name   | Tier | Attr | rng | acc | dmg | def |
 |--------|------|------|-----|-----|-----|-----|
-| Buckler | T2, meele | fitness | 0 | 0 | 0 | 2 |
-| Rapier | T3, meele | fitness | 1 | 2 | 0 | 0 |
+| Sickle | T2, meele | fitness | 0 | 1 | 1 | 0 |
+| Shield | T3, meele | fitness | 0 | 0 | 0 | 3 |
 | Parrying Dagger | T2, meele | fitness | 0 | 0 | 1 | 1 |
 | Halbeard | T4, meele | fitness | 1 | 0/2* | 2/0* | 1 |
 | Musket | T4, range | agility | 1 | 2 | 1 | 0 |
-| Longbow | T4, range | fitness | 1 | 1 | 2 | 0 |
 
 * The halbeard can be used with the axe head for a **damage** bonus and the hammer head for an **accuracy** bonus.
 * Note that shields count also as weapons. All their points go into the **defense** attribute, but attacking with them is still possible.
