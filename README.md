@@ -1,5 +1,5 @@
 # SiRPG Introduction
-![](sickle.png)
+
 SiRPG -the Simple RPG- is an experimental table top RPG, which focusses on ease of use and applicability to many different game setting.
 It consists of different modules which can be used independently of each other and may be integrated into other games as well.
 
