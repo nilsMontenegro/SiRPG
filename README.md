@@ -1,58 +1,60 @@
-# SiRPG Introduction
+# SiRP Introduction
 
-SiRPG -the Simple RPG- is an experimental table top RPG, which focusses on ease of use and applicability to many different game setting.
+SiRP -the Simple Role Play Game- is an experimental table top RPG, which focusses on ease of use and applicability to many different game setting.
 It consists of different modules which can be used independently of each other and may be integrated into other games as well.
+This document does not lay out complete rules for a new role playing game, instead it is ment to describe the core mechancis.
 
 # Moule 1: The Character Sheet
 
-A character has different **attributes** and **professions**, which are summarized in the character sheet.
-Each entry in the character sheet is quantified by a number.
+The heroes of a role play game are characters, each player controls one of them.
+A character is described in the character sheet, which has scores for four different **attributes**, one **class** and for **hitpoints**.
+Each of those is described by a number.
 
-A character has four **attributes**:
+These are a characters four **attributes**:
 
 - **Fitness** describes how strong, fast and enduring a character is.
 - **Agility** describes the fine motoric skills and dexterity of the character.
 - **Intelligence** describes the intelligence and knowledge of a character.
 - **Charisma** describes the empathic skills and the overall charisma of a character.
 
-Next, a character has one ore more **professions** which the player can choose freely.
-Professions can be viewed as classes, like *detective* or *battlefield medic*.
-Note that there are no scores for individual skills, but each professions implcitly covers a whole set of skills.
+Next, a character has one **class** which the player can choose freely.
+Classes are professions like *detective* or *battlefield medic*.
+Note that there are no scores for individual skills on a character sheet, but each class implcitly covers a whole set of skills.
 
-Be as precise as possible when describing your **profession** and maybe add a sentence to describe what you actually mean.
+Be as precise as possible when describing your **class** and maybe add a sentence to describe what you actually mean.
 A generic *warrior* which provieds no further explanation leaves it unlear if this person can use a sword or a laser gun,
 if he has any experience commanding troops or organizing logisitics.
-Making your character instead a *sword master* who fights in battles and teaches the young nobility how to be knights clears up what the character can do.
+Describing your character instead as a *sword master* who fights in battles and teaches young nobility how to be knights clears up what the character can do.
+
+The **hitpoints** are a measure of the characters life in combat.
 
 ## Character Creation
 
-Initially, a player assignes the numbers -1, 0, 1, 2 to his **attributes** as he or she wishes.
-The player then chooses one **profession** and gives it a score of two.
-
-The character's initial **hitpoints** are then set as 10 plus the fitness score.
+Initially, a player assignes the scores -1, 0, 1, 2 to his **attributes** and gives his **class** a score of two.
+The character's initial **hitpoints** are then set to 10 plus the fitness score.
 
 ## Leveling up
 
-When the players accieved an important milestone in the story, they can level up their characters.
-Each player can improve one of his his attribute or profession scores by one.
+When the players can level up their characters, each player may improve the score of one of his his **attributes** or **class** by one.
 If he choses to improve his fitness score, also his hitpoints are increased by one.
-Then each player rolls 1D6 and adds that result to their hitpoints.
+Then each player then adds the result of a 1D6 roll -but at least a two- to their **hitpoints**.
 
-New professions can be aquired at any time.
-For this, just write down the profession you are interested in learning and give it an intitial value of zero.
-You can now start to use it, intially without benefit for the action but with the possibility to learn by leveling up.
+New **classes** can be aquired at any time.
+For this, just write down the **class** you are interested in learning and give it an intitial value of zero.
+You can now start to use it, intially without benefit but with the possibility to learn by leveling up.
 
 ## Using Skills
 
-To determine the success of an in game action, the player rolls a D20 and adds the score of his most relevant attribute and of the highest applicable profession.
-If no profession is applicable, add zero.
-Every skill check has to make a reasonable assumption whether a profession applies to the situation.
+To determine the success of an in game action, the player performs a **skill check**.
+He rolls a D20 and adds the score of his most relevant **attribute** and of the highest applicable **class** to the result.
+If no **class** is applicable, add zero instead.
+Every **skill check** has to make a reasonable assumption whether a **class** applies to the situation.
 The result has then to be greater or equal a given threshold for the action to succeed.
 The threshold can be either fixed for a static obstacle or an opposing skill check for a competition against another character.
 
 ### Using Equipment and the Environment
 
-Using equipment can help you accieve a task.
+Using equipment can help you succeed in a **skill check**.
 You can use one piece of equipment in an action, for example a magnifying glass to look for hidden clues.
 In this case you can add a bonus to your skill check.
 Equipment can have a value for the bonus assigned to them.
@@ -63,17 +65,13 @@ In some cases, also the environment can help you in your skill check.
 Darkness can help you hide, a corner can help you take cover from enemy fire.
 Every benefitial environmental factor gives you one bonus.
 
-### The Formula
-
-1D20 + Attribute + Profession + Equipment + Environment >= threshold
-
 # Module 2: Special Abilities
 
 Special abilities represent a way to play with magic or great skills.
 A character can receive special abilities to increase it's uniqueness and improve an interesting play style.
 A player can invent new special abilities, and choose one during character creation.
 They too are noted in the players character sheet.
-Some abilities can level up to grant more bonuses, so instead of investing level points into attributes and professions, they can be invested into those abilities.
+Some abilities can level up to grant more bonuses, so instead of investing level points into **attributes** and **classes**, they can be invested into those abilities.
 
 ## Example Abilities
 
@@ -135,11 +133,11 @@ They might for example be able to see in the dark or breathe under water.
 ## Weapons
 Weapons can be categorized into five tiers:
 
- - **Tier 0** bare hands
- - **Tier 1** improvized weapons: sticks, stones, bottles
- - **Tier 2** small weapons: knives, slingshots, throwing stars. They can be build quickly out of simple materials.
- - **Tier 3** one handed weapons: rapiers, pistols, axes
- - **Tier 4** two handed weapons: longswords, muskets, halbeards, longbows
+ - **Tier 0** bare hands - damage dice D4
+ - **Tier 1** improvized weapons: sticks, stones, bottles - damage dice D4
+ - **Tier 2** small weapons: knives, slingshots, throwing stars. They can be build quickly out of simple materials.  - damage dice D6
+ - **Tier 3** one handed weapons: rapiers, pistols, axes - damage dice D6
+ - **Tier 4** two handed weapons: longswords, muskets, halbeards, longbows - damage dice D8
 
 Each tier gives a weapon that many points to distribute to the four weapon stats:
  - **Accuracy** Added attack bonus. Add points here if the weapon is easy to aim or can damage through armour.
@@ -159,7 +157,7 @@ If the weapons attack instead triggers without the use of force, and the user ca
 agility or intelligence can be used as relevant attributes.
 
 The **accuracy** value of a given weapon is added as the equipment modifier to the above skill check formula.
-If the attack succeeds, the damage is 1d6 + the **damage** attribute of the weapon.
+If the attack succeeds, the damage is a roll of the damage dice plus the **damage** attribute of the weapon.
 
 ### Example Weapons
 
