@@ -186,8 +186,47 @@ Armour can be classified into categories with different **defense** values.
 | heavy/hard | metal | 2 | cuirass, helmet |
 | energy based | technology or magic | 3 | shield generator, spell |
 
+## Special Abilities
 
-# Module 4: Vehicles
+Much like your character, your weapon and armor can also have a special ability.
+Those abilities should refelct the nature of your equipment and be properly balanced to be special, but not game breaking.
+Here are a few examples covering different cultures and periods:
+
+| Equipment | Ability | Explanation |
+|-----------|---------|-------------|
+| Greatsword | Area Damage | An attack targets all of the oponents in front of the character at once. |
+| Blow Dart | Poison | The target looses one **hitpoint** per turn until he is treated with antipoison. |
+| Electro Maul | Paralyse | The target skips his next turn, but cannot be paralysed again before that. |
+| Cuirass | Damage Reduction | Each incomming attack deals one damage less. |
+| Musket | Smoke Shot | Shooting gives you one additional **defense** against ranged attacks until your next turn. |
+
+# Module 4: Adaptation for War Games
+
+In table top war games, each player controls serveral units or an entire army made up of squads.
+For those games, the game mechanics can be simplified to focus purely on the battle aspecs of the game.
+
+The character sheets for units do not need to seperate between the attribute and the weapon scores.
+It can consist of these points:
+
+ - **Maximum Hitpoints** The regular HP of a characater.
+ - **Defense** Sum of all defense values of weapons and armor.
+ - **Attack Bonus** Sum of the characters skill level and the weapons bonus.
+ - **Damage** The weapons damage value.
+ - **Special Ability** An extra ability for hero characters or specialized units.
+
+To play with squads, you can group units of the same type and control them as one.
+For each squad, you need to keep track of:
+
+ - **Unit Type** to connect them to a character sheet.
+ - **Unit Size** The amount of units in your squad.
+ - **Hitpoints** The current hitpoints of only one unit.
+
+When a squad attacks, each units makes an attack roll against the armor of the target.
+When a squad is attacked, the received damage is taken off of the squads **hitpoints**.
+When it reaches zero, one unit in the squad dies.
+The **unit size** is reduced by one, and the **hitpoints** are restored to the units **maximum hitpoints**.
+
+# Module 5: Vehicles
 
 Vehicles can transport characters and goods, they can be mobile bases and they can fight each other.
 The concept of vehicles can be applied to all game settings, and they can range from huge starships to sailing vessels to a small van or a donkey chart.
