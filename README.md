@@ -203,7 +203,9 @@ Here are a few examples covering different cultures and periods:
 # Module 4: Adaptation for War Games
 
 In table top war games, each player controls serveral units or an entire army made up of squads.
-For those games, the game mechanics can be simplified to focus purely on the battle aspecs of the game.
+For those games, the game play can be simplified to focus purely on the battle aspecs of the game.
+
+## Units and Squads
 
 The character sheets for units do not need to seperate between the attribute and the weapon scores.
 It can consist of these points:
@@ -225,6 +227,14 @@ When a squad attacks, each units makes an attack roll against the armor of the t
 When a squad is attacked, the received damage is taken off of the squads **hitpoints**.
 When it reaches zero, one unit in the squad dies.
 The **unit size** is reduced by one, and the **hitpoints** are restored to the units **maximum hitpoints**.
+
+## Goals of a Battle
+
+Both oppsoing armies can have different goals to win the battle.
+
+ - **Chess** Both parties control similar armies, the goal of both is to destroy the enemy king or entire army.
+ - **Escort Mission** The king of one army has to travel between two defined points. The other army has to stop him.
+ - **Control Terrain** Both parties try to capture and hold some defined points. The first to control all of them wins.
 
 # Module 5: Vehicles
 
